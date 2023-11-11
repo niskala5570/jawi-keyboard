@@ -1,9 +1,14 @@
-# MNH48 Jawi Keyboard
+<h3 align="center">
+    <img src="https://github.com/niskala5570/jawi-keyboard/assets/34799053/f5eb4516-2457-4510-9d8b-552f17cd32f2" alt="Kekunci Jawi">
+    <img src="https://readme-typing-svg.demolab.com?font=Reem+Kufi&size=30&pause=3000&color=F7F7F7&center=true&vCenter=true&random=true&width=435&lines=KEKUNCI+%E2%80%84JAWI;JAWI%E2%80%84KEYBOARD"/>
+</h3><hr>
 
-Jawi keyboards by MNH48.
+## NKL Jawi (QWERTY) - Windows
 
+Sama seperti MNH48 tetapi sedikit penambahan.
 
-## MNH48 Jawi (QWERTY) - Windows
+<details>
+<summary align=center><h2> MNH48 Jawi (QWERTY) - Windows </h2></summary>
 
 The directory contains the keyboard layout source file in `klc` format,
 that is used in Microsoft Keyboard Layout Creator (MSKLC), as well as
