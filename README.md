@@ -8,6 +8,16 @@
 Sama seperti MNH48 tetapi sedikit penambahan.
 
 <details>
+<summary align=center><h2> Pemetaan // Mapping </h2></summary>
+<img src="https://github.com/niskala5570/jawi-keyboard/assets/34799053/95783848-d008-47c2-8f69-edd6a1f03b34"
+
+![Shift_copy_1](https://github.com/niskala5570/jawi-keyboard/assets/34799053/5c3e3020-8642-4840-87bb-e6c40e20e377)
+![Ctrl Alt](https://github.com/niskala5570/jawi-keyboard/assets/34799053/b70f8c8c-c418-4572-9f07-43a284bbe33d)
+![Ctrl Alt Shift](https://github.com/niskala5570/jawi-keyboard/assets/34799053/acd36833-ee74-4ce4-b11b-1b1a39046620)
+
+</details>
+
+<details>
 <summary align=center><h2> MNH48 Jawi (QWERTY) - Windows </h2></summary>
 
 The directory contains the keyboard layout source file in `klc` format,
@@ -58,3 +68,4 @@ If I read correctly, what it don't allow is the bundling of the keyboard
 layout in paid software or selling the layout itself. You can still use
 my files to install and modify as long as you abide with that terms.
 Those terms were set by Microsoft, not me.
+</details>
