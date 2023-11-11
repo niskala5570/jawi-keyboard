@@ -7,6 +7,34 @@
 
 Sama seperti MNH48 tetapi sedikit penambahan.
 
+### Pemasangan
+
+Muat turun fail zip dan ekstrak di folder pilihan.
+Buka folder NKL Jawi (QWERTY) - Windows.
+Klik pada Jawi_NKL_amd64.msi, tunggu sehingga selesai.
+
+<details>
+<summary>Gambar</summary>
+
+![image](https://github.com/niskala5570/jawi-keyboard/assets/34799053/ced3220d-0286-4941-b37c-32e2eaedec68)
+
+</details>
+
+---
+
+### Nyahpasang
+
+Buka *control panel* , *programs and features*, cari Jawi NKL(QWERTY)
+
+<details>
+<summary>Gambar</summary>
+
+![image](https://github.com/niskala5570/jawi-keyboard/assets/34799053/e4a980c4-438b-4669-a641-0f2ca66c5099)
+
+</details>
+
+----
+
 <details>
 <summary align=center><h2> Pemetaan // Mapping </h2></summary>
 <img src="https://github.com/niskala5570/jawi-keyboard/assets/34799053/95783848-d008-47c2-8f69-edd6a1f03b34"
