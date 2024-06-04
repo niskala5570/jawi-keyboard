@@ -9,14 +9,16 @@ Sama seperti MNH48 tetapi sedikit penambahan.
 
 ### Pemasangan
 
-Muat turun fail zip dan ekstrak di folder pilihan.
-Buka folder NKL Jawi (QWERTY) - Windows.
-Klik pada Jawi_NKL_amd64.msi, tunggu sehingga selesai.
+Muat turun fail zip melalui [_Release_](https://github.com/niskala5570/jawi-keyboard/releases/tag/Kartika) atau seperti gambar di bawah dan ekstrak di folder pilihan.
+Dwiketik setup.exe, berikan kebenaran admin bila diminta.
+
+Selesai ^^
 
 <details>
 <summary>Gambar</summary>
 
 ![image](https://github.com/niskala5570/jawi-keyboard/assets/34799053/ced3220d-0286-4941-b37c-32e2eaedec68)
+![image](https://github.com/niskala5570/jawi-keyboard/assets/34799053/f7946dbb-3670-4086-9922-6c5b0bf03ec2)
 
 </details>
 
@@ -24,13 +26,47 @@ Klik pada Jawi_NKL_amd64.msi, tunggu sehingga selesai.
 
 ### Nyahpasang
 
-Buka *control panel* , *programs and features*, cari Jawi NKL(QWERTY)
+Dwiketik setup.exe dan beri kebenaran admin bila diminta.
+Pilih _Remove the keyboard layout_ dan ketik _finish_.
 
+Selesai ^^
 <details>
 <summary>Gambar</summary>
 
-![image](https://github.com/niskala5570/jawi-keyboard/assets/34799053/e4a980c4-438b-4669-a641-0f2ca66c5099)
+![image](https://github.com/niskala5570/jawi-keyboard/assets/34799053/d7d847c9-9b19-4a22-8a64-f81decce8e74)
 
+</details>
+
+---
+
+### Soalan Mungkin Ditanya
+
+<details>
+<summary align=center><h4>Apple Macintosh? iPhone?</h4></summary>
+Malangnya aku tak ada peranti tersebut untuk kaji buat atur letak sendiri.
+
+- [Papan Huruf atau Keyboard Jawi di Mac - Akademi Jawi Malaysia](https://www.youtube.com/watch?v=1XeQuzrYQdU&t=62s)
+- [Gunakan terbina atur letak terbina dalam iOS, cari Bahasa Melayu (Arab)](https://x.com/koleksijawi/status/1703638217608814818)
+
+</details>
+<details>
+<summary align=center><h4>Linux?</h4></summary>
+
+Boleh lihat [FCITX Table Jawi oleh Jawi MNH](https://github.com/jawi-mnh48/fcitx-table-jawi), malangnya aku tak dapat mengesahkan kerana gagal membolehkan ia berfungsi di komputer aku. (arch btw).
+Kedepannya aku akan cuba buat sendiri dengan [xremap](https://github.com/xremap/xremap) (mempunyai sokongan X11 dan Wayland).
+
+</details>
+
+<details>
+<summary align=center><h4>Android?</h4></summary>
+
+Aku ada cadang nak tambah pada [FlorisBoard](https://github.com/florisboard/florisboard), apapun boleh guna alternatif ini dahulu:
+- [Kekunci Google](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en), pilih Bahasa Melayu (Arab). [Percuma] (Mirip QWERTY, kaf dan ga arab ك ڬ, bukan Jawi ک ݢ dan tiada ye ى)
+- [Jawi Pro](https://play.google.com/store/apps/details?id=com.zairo.zairokeyboardpro&hl=en) [RM5.49] (Mempunyai atur letak QWERTY dan lain lagi)
+- [Jawi / Arabic Keyboard](https://play.google.com/store/apps/details?id=com.gogo.nurul.keyboardjawi&pcampaignid=web_share) [Percuma]
+- [Mobile Jawi](https://play.google.com/store/apps/details?id=com.murasu.mobilejawi&hl=en) [Percuma]
+- [eJawiMakmur](https://play.google.com/store/apps/details?id=my.gov.muip.ejawi&hl=en) [Percuma] (Bukan kekunci tetapi penukar, dibangun oleh Majlis Adat Resam Melayu Pahang [MUIP])
+- SwiftKeyboard dan Samsung Keyboard juga ada rasanya, tak pasti, cari Bahasa Melayu (Arab) dalamnya.
 </details>
 
 ----
