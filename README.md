@@ -39,6 +39,107 @@ Selesai ^^
 
 ---
 
+
+## NKL Jawi (QWERTY) - Linux (X11 XKB Symbols)
+### Persediaan
+Perlu diambil perhatian yang setiap sistem mungkin berbeza caranya. Walaupun memang namanya X11, tetapi Wayland boleh sahaja.
+
+Dan ya, aku tahu semuanya boleh dibuat menggunakan terminal, tetapi aku malas menulis skrip dan aku malas menulis skrip.
+
+Aku menggunakan Suasana Semeja K (_K Desktop Environment_; KDE) yang telah aku pasangakn FCITX5 (fai.tiks.faiv) kerana hendakkan _Mozc_ (kekunci Jepun spt. Google JP IME). Jadi tangkapan layar dan cara pemasangan mungkin berbeza untuk pengguna seperti Cinnamon ataupun GNOME.
+
+1. Buka folder akar (_root_) kalian, dan pergi ke `usr/share/X11/xkb/`.
+2. Akan ada dua folder yang kalian perlu buka iaitu `rules` dan juga `symbols`.
+3. Buat salinan untuk fail `symbols/my` dan `rules/evdev.xml`. Jangan risau jika terpadam, aku ada, tetapi mungkin tidak sama. Sediakan payung sebelum hujan.
+
+### Pemasangan
+#### symbols/my
+
+Akan ada dua peta kekunci, tambahkan peta kekunci yang ketiga. Boleh salin dan tampal sahaja dari fail (`ms`)[NKL Jawi (QWERTY) - Linux xkb symbols/symbols/my] ini.
+
+Ketiga yang dimaksudkan:
+
+```
+partial alphanumeric_keys
+xkb_symbols "jawiniskala"
+{
+    name[Group1] = "Malay (Jawi NISKALA, phonetic)";
+
+*sampai habis*
+```
+
+#### rules/evdev.xml
+Cari `<!-- Keyboard indicator for Malay layouts -->` kemudian salin dan tampal sahaja dari (`evdev.xml`)[NKL Jawi (QWERTY) - Linux xkb symbols/rules/evdev.xml].
+
+Maka akan jadi seperti ini:
+
+```
+    <layout>
+      <configItem>
+        <name>my</name>
+        <!-- Keyboard indicator for Malay layouts -->
+        <shortDescription>ms</shortDescription>
+        <description>Malay (Jawi, Arabic Keyboard)</description>
+        <countryList>
+          <iso3166Id>MY</iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>ind</iso639Id>
+          <iso639Id>msa</iso639Id>
+          <iso639Id>min</iso639Id>
+          <iso639Id>ace</iso639Id>
+          <iso639Id>bjn</iso639Id>
+          <iso639Id>tsg</iso639Id>
+          <iso639Id>mfa</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>phonetic</name>
+            <description>Malay (Jawi, phonetic)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>jawiniskala</name>
+            <description>Malay (Jawi NISKALA)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+```
+
+#### Tetapan sistem
+1. Fcitx
+
+Buka tetapan sistem, cari `fcitx` / `input method` jika guna fcitx.
+
+Tekan butang `add input method` dan cari nama `(Jawi NISKALA)`.
+
+!()[NKL Jawi (QWERTY) - Linux xkb symbols/gambar/Screenshot_20250501_003515.png]
+
+2. Biasa
+
+Buka tetapan sistem, cari `keyboard`.
+
+Kemudian tekan butang `Add layout` dan taip sahaja `Niskala`
+
+!()[NKL Jawi (QWERTY) - Linux xkb symbols/gambar/Screenshot_20250501_004455.png]
+
+
+#### Tetapkan kekunci pintas.
+
+Jangan lupa tetapkan kekunci pintas untuk menukar antara Rumi dan Jawi. Aku gunakan `Meta(Win)` + `Spacebar` sama spt. Windows.
+
+Walaupun aku gunakan fcitx, tetapan pintasan masih ada pada yang biasa (`keyboard`) melalui butang `Configure Switching`.
+
+!()[NKL Jawi (QWERTY) - Linux xkb symbols/gambar/Screenshot_20250501_004730.png]
+
+
+# Selesai! سلامت منجاوي!
+---
+
 ### Soalan Mungkin Ditanya
 
 <details>
@@ -51,6 +152,8 @@ Malangnya aku tak ada peranti tersebut untuk kaji buat atur letak sendiri.
 </details>
 <details>
 <summary align=center><h4>Linux?</h4></summary>
+Kemaskini: Boleh guna pemetaan xkb yg aku sudah sediakan. Lihat cara pasang di atas.
+
 
 Boleh lihat [FCITX Table Jawi oleh Jawi MNH](https://github.com/jawi-mnh48/fcitx-table-jawi), malangnya aku tak dapat mengesahkan kerana gagal membolehkan ia berfungsi di komputer aku. (arch btw).
 Kedepannya aku akan cuba buat sendiri dengan [xremap](https://github.com/xremap/xremap) (mempunyai sokongan X11 dan Wayland).
