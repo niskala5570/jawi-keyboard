@@ -117,7 +117,7 @@ Buka tetapan sistem, cari `fcitx` / `input method` jika guna fcitx.
 
 Tekan butang `add input method` dan cari nama `(Jawi NISKALA)`.
 
-![](NKL Jawi (QWERTY) - Linux xkb symbols/gambar/Screenshot_20250501_003515.png)
+![](https://github.com/niskala5570/jawi-keyboard/blob/4ca5229d56ffbdfeb8f77b672eb348578a9739bc/NKL%20Jawi%20(QWERTY)%20-%20Linux%20xkb%20symbols/gambar/Screenshot_20250501_003515.png)
 
 2. Biasa
 
@@ -125,7 +125,7 @@ Buka tetapan sistem, cari `keyboard`.
 
 Kemudian tekan butang `Add layout` dan taip sahaja `Niskala`
 
-![](NKL Jawi (QWERTY) - Linux xkb symbols/gambar/Screenshot_20250501_004455.png)
+![](https://github.com/niskala5570/jawi-keyboard/blob/4ca5229d56ffbdfeb8f77b672eb348578a9739bc/NKL%20Jawi%20(QWERTY)%20-%20Linux%20xkb%20symbols/gambar/Screenshot_20250501_004455.png)
 
 
 #### Tetapkan kekunci pintas.
@@ -134,7 +134,7 @@ Jangan lupa tetapkan kekunci pintas untuk menukar antara Rumi dan Jawi. Aku guna
 
 Walaupun aku gunakan fcitx, tetapan pintasan masih ada pada yang biasa (`keyboard`) melalui butang `Configure Switching`.
 
-![](NKL Jawi (QWERTY) - Linux xkb symbols/gambar/Screenshot_20250501_004730.png)
+![](https://github.com/niskala5570/jawi-keyboard/blob/4ca5229d56ffbdfeb8f77b672eb348578a9739bc/NKL%20Jawi%20(QWERTY)%20-%20Linux%20xkb%20symbols/gambar/Screenshot_20250501_004730.png)
 
 
 # Selesai! سلامت منجاوي!
