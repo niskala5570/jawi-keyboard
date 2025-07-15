@@ -173,5 +173,6 @@ xkb_symbols "jawiniskala"
     key <AB10> {[       slash,  Arabic_question_mark,  U200C   ]};
 
     include "level3(alt_switch)"
+    include "level3(caps_switch)" // Alternatif tahap 3 utk perisian yang alah alt spt Discord.
 };
 
